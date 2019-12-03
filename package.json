@@ -1,0 +1,27 @@
+{
+  "name": "filtersSpeedTest",
+  "version": "0.0.1",
+  "description": "data and scripts for test loop and filter performance",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets @babel/preset-env ./index.js"
+  },
+  "author": "Oleksandr Devyatkov <odevyatkov@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:odevyatkov/filtersSpeedTest.git"
+  },
+  "homepage": "https://github.com/odevyatkov/filtersSpeedTest",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/node": "7.7.0",
+    "@babel/preset-env": "7.7.4",
+    "lodash": "4.17.15"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  }
+}
